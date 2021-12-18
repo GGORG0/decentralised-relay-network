@@ -18,7 +18,7 @@ class Node:
     def __init__(self, ip, port, 
                 node_id: int, directly_connected: bool = True, 
                 client: bool = True, sock: socket.socket = None, 
-                hostname: str = None, public_key: str = None):
+                hostname: str = None):
         self.ip = ip
         self.port = port
         self.directly_connected = directly_connected
